@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
-import '@fontsource/luckiest-guy';
-import '@fontsource/poppins';
+import "@fontsource/luckiest-guy";
+import "@fontsource/poppins";
 import CricketBanner from "./components/CricketBanner";
 import FooterDisclaimer from "./components/Footer";
 
@@ -90,7 +90,7 @@ function App() {
       <div className="relative z-10">
         {/* Header Section */}
         <div className="flex justify-center mt-6">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold italic font-luckiest-guy">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold italic">
             <span className="glow-text text-white tracking-wider">BRV</span>
             <span className="gaming-text tracking-normal">GAMINGS</span>
           </h1>
@@ -247,7 +247,7 @@ function App() {
           <img
             src="/images/whatsapp.png"
             alt="WhatsApp"
-            className="w-[34px] h-[20px] mr-2"
+            className="w-[34px] h-[34px] mr-2"
           />
           Get your ID
         </button>
