@@ -6,7 +6,7 @@ export default function CricketBanner() {
   const handleWhatsAppRedirect = () => {
     const message =
       "** Hello! I want to create an account and start earning money with BRV Online Book. **";
-    window.location.href = `https://wa.me/639072368736?text=${encodeURIComponent(
+    window.location.href = `https://wa.me/447565760245?text=${encodeURIComponent(
       message
     )}`;
   };

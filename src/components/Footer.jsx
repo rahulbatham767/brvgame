@@ -5,8 +5,7 @@ export default function FooterDisclaimer() {
   const [showTerms, setShowTerms] = useState(false);
 
   const handleWhatsAppRedirect = () => {
-    window.location.href =
-      "https://wa.me/639072368736?text=I%20want%20to%20create%20an%20account%20and%20earn%20with%20you";
+    window.location.href = `https://wa.me/447565760245?text=I%20want%20to%20create%20an%20account%20and%20earn%20with%20you`;
   };
 
   return (
